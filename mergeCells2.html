@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>行合并</title>
+
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        input {
+            border: 0;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <form>
+        <table id="table1">
+            <thead>
+                <tr>
+                    <td rowspan=2 id="listId">number 1</td>
+                    <td rowspan=2>number 2 </td>
+                    <td rowspan=2>number 3</td>
+                    <td colspan=3>number 4</td>
+                    <td rowspan=2>number 5</td>
+                    <td colspan=2>number 6</td>
+                    <td rowspan=2>number 7</td>
+                </tr>
+
+                <tr>
+                    <td>list 1</td>
+                    <td>list 2</td>
+                    <td>list 3</td>
+                    <td>list 4</td>
+                    <td>list 5</td>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><input type="text" value="12" /></td>
+                    <td><input type="text" value="item 1" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" value="12" /></td>
+                    <td><input type="text" value="item 1" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="12" /></td>
+                    <td><input type="text" value="item 1" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" value="12" /></td>
+                    <td><input type="text" value="item 1" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="12" /></td>
+                    <td><input type="text" value="item 1" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" value="12" /></td>
+                    <td><input type="text" value="item 2" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="12" /></td>
+                    <td><input type="text" value="item 1" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" value="12" /></td>
+                    <td><input type="text" value="item 1" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                    <td><input type="text" /></td>
+                </tr>
+
+            <tbody>
+
+        </table>
+
+
+        <input type="button" value="merge 1" onclick="mergeCell('table1','0')" />
+        <input type="button" value="merge 2" onclick="mergeCell('table1','1')" />
+
+    </form>
+    <script src='./ceshi2.js'>
+    </script>
+</body>
+
+</html>
